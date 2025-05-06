@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    border-bottom: 1px solid #eee;
+}
+.header{
+    width: 30vw;
+}
+.header h1 span{
+    color: orange;
+}
+.else{
+    width: 35vw;
+}
+.profile{
+    width: 20px;
+    height: 20px;
+}
+.leftCreate{
+    margin: 2.5% 0 0 8%;
+    width: 23vw;
+    height: 60vh;
+    box-shadow: 0 0 2px gray;
+}
+.listInfo{
+    flex-direction: column;
+}
+.restInfo span{
+    padding: 5%;
+    position: relative;
+    left:20px;
+    top:20px;
+}
+.select{
+    flex-direction: column;
+}
+
+.rightOutline{
+    margin: 4% ;
+    width: 50vw;
+    box-shadow: 0 0 3px gray;
+    border-radius: 10px;
+}
+.rightOutline label{
+    font-weight: 600;
+}
+form{
+    flex-direction: column;
+    height: 75vh;
+}
+.num{
+   
+    background-color: orange;
+    border-radius: 70%
+}
+i{
+    color: black;
+}
+i.fas.fa-bell{
+    color: orange;
+}
+@media(max-width: 600px){
+    .header{
+        width: 100%;
+        clear: left;
+        display: flex;
+        justify-content: center;
+    }
+    .else{
+        width: 100%;
+        clear: left;
+    }
+    .leftCreate{
+        margin: 0;
+        width: 100%;
+        clear: left;
+    }
+    .rightOutline{
+        margin: 2% 0;
+        width: 100%;
+        clear: right;
+    }
+}
+@media(min-width: 600px) and (max-width: 1200px){
+    .leftCreate{
+        margin: 2.5% 0 0 3%;
+        width: 38%;
+    }
+    .rightOutline{
+        margin: 4.5% 2% 0 0;
+        width: 54%;        
+    }
+}

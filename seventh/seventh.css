@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.logoNav{
+    width: 30vw;
+    float: left;
+}
+.logoNav h1 span{
+    color: orange;
+}
+.othersNav{
+    width: 35vw;
+    justify-content: space-evenly;
+    float: right;
+    padding: 5px;
+}
+.profile{
+    width: 20px;
+    height: 20px;
+}
+.leftCreate{
+    margin: 2.5% 0 0 15%;
+    width: 25vw;
+    height: 60vh;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+}
+.listInfo{
+    flex-direction: column;
+}
+.restInfo span{
+    padding: 8%;
+}
+.select{
+    flex-direction: column;
+}
+
+.rightOutline{
+    margin: 4.5% 7% 0 0;
+    width: 43vw;
+    box-shadow: 0 0 3px gray;
+    border-radius: 10px;
+}
+.rightOutline label{
+    font-weight: 600;
+}
+form{
+    flex-direction: column;
+    height: 67vh;
+}
+@media(max-width: 600px){
+    .logoNav{
+        width: 100%;
+        clear: left;
+        display: flex;
+        justify-content: center;
+    }
+    .othersNav{
+        width: 100%;
+        clear: left;
+    }
+    .leftCreate{
+        margin: 0;
+        width: 100%;
+        clear: left;
+    }
+    .rightOutline{
+        margin: 2% 0;
+        width: 100%;
+        clear: right;
+    }
+}
+@media(min-width: 600px) and (max-width: 1200px){
+    .leftCreate{
+        margin: 2.5% 0 0 3%;
+        width: 38%;
+    }
+    .rightOutline{
+        margin: 4.5% 2% 0 0;
+        width: 54%;        
+    }
+}

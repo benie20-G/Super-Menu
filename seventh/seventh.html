@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="css/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./seventh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="firstDiv container-fluid d-flex col-sm-12">        
+        <nav class="container-fluid p-2">
+            <div class="logoNav">
+                <h1>
+                    Supa
+                    <span>Menu</span>
+                </h1>
+            </div>
+            <div class="othersNav d-flex">
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-bell"></i>
+                </a>
+                <div class="line">|</div>
+                <p>Jacques Kagabo</p>
+                <a href="#">
+                    <img src="./imgs/profile.png" alt="profile-image" class="profile">
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="leftCreate float-start">
+        <div class="d-flex px-3">
+            <h4 class="px-4">1.Create your <br>
+                restaurant profile</h4>
+        </div>
+        <div class="listInfo d-flex w-100">
+            <div class="restInfo">
+                <span>1</span>
+                <div class="select d-flex w-75 float-end">
+                    <h5>Restaurant information</h5>
+                    <p>Restaurant name, address, Details, owner details</p>
+                </div>
+            </div>
+            <div class="restInfo">
+                <span>1</span>
+                <div class="select d-flex w-75 float-end">
+                    <h5>Restaurant information</h5>
+                    <p>Restaurant name, address, Details, owner details</p>
+                </div>
+            </div>
+            <div class="restInfo">
+                <span>1</span>
+                <div class="select d-flex w-75 float-end">
+                    <h5>Restaurant information</h5>
+                    <p>Restaurant name, address, Details, owner details</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rightOutline float-end">
+        <form class="d-flex px-5 py-4">
+            <h5>Restaurant Type (restaurant, pub, hotel, coffeshop, other)</h5>
+            <select name="restType" class="form-control my-4">
+                <option value="">Restaurant</option>
+            </select>
+            <select name="country" class="form-control">
+                <option value="">African</option>
+            </select>
+            <div class="d-flex">
+                <div class="col mx-1">                    
+                    <input type="text" class="form-control my-3" name="name" placeholder="From  |  ">       
+                </div>
+                <div class="col mx-3">                    
+                    <input type="text" class="form-control m-3" name="email" placeholder="To  |  ">       
+                </div>
+            </div>
+            <div class="upload mt-3">
+                <label for="image">Upload Images (pictures or logo)</label>
+                <input type="file" name="img" class="form-control mt-2" placeholder="Choose images">
+            </div>
+        </form>
+    </div>
+        
+        
+</body>
+</html>

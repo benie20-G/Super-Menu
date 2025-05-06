@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 100vw;
+    height: 100vh;
+  }
+  .main{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+  }
+
+  .navbar{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  span{
+    color: orange;
+  }
+  .user{
+    display: flex;
+    flex-direction: row;
+  }
+  .profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .search,.notification,.line{
+    background-color: rgb(141, 134, 134);
+    width: 50px;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .info>div>h2,p{
+  padding: 5px;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+  }
+  .buttons>div{
+    padding: 15px;
+    margin: 10px 30px 10px 0;
+    border-radius: 10px;
+  }
+  .buttons>div>a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  .button1{
+    background-color: orange;
+    
+  }
+
+  .button2{
+    border: 2px solid white;
+  }
+
+  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .body{
+    background-color: rgb(209, 238, 248);
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .body>h2{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps>div{
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    width: 20%;
+    margin: 50px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .steps>div>div{
+    background-color: gray;
+    width: 80%;
+    height: 60%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .user{
+        display: none;
+    }
+    .info>div>div{
+        flex-direction: column;
+        width: 80%;
+    }
+    .body{
+        height: auto;
+    }
+    .steps{
+        flex-direction: column;
+        align-items: center;
+    }
+    .steps>div{
+        width: 60%;
+    }
+  }
+  @media (max-width: 480px) {
+    .steps{
+        flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 95vh;
+    width: 20vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    color: orange;
+    position: relative;
+    top: 50px;
+}
+span{
+    color: white;
+}
+.two,.one{
+display: flex;
+flex-direction: column;
+padding: 6px 0;
+
+}
+
+.WholeBody{
+    width: 80%;
+    background:aliceblue;
+}
+
+input{
+    padding: 15px;
+    width: 40vw;
+    margin-top:10px;
+    background-color: aliceblue;
+    border: 1px solid rgb(210, 226, 240);
+    box-shadow: 0px 4px 8px rgba(110, 110, 110, 0.2);
+}
+.bodyHeader{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.bodyHeader>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.bodyHeader>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.status{
+    border: 1px solid rgb(248, 139, 139);
+    border-radius: 10px;
+}
+
+.status>div:nth-child(1),.status>div:nth-child(2),.status>div:nth-child(3){
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.status>div:nth-child(2){
+    border: 1px solid rgb(243, 136, 136);
+}
+.status>div:nth-child(4){
+    padding: 50px;
+    width: 20%;
+}
+.bodylist{
+    height: 75vh;
+    padding: 10px;
+    background-color: white;
+    margin: 0 30px;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bodylist>div{
+    display: flex;
+    justify-content: space-between;
+}
+.statics{
+    background-color: white;
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid gray;
+}
+
+.statics>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 50px ;
+    border-bottom: 1px solid gray;
+
+}

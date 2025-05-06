@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.part1{
+    width:100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding-top:10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    font-weight:700;
+    font-size:40px ;
+    padding: 20px;
+}
+
+.profile{
+    display: flex;
+}
+.profile p{
+    padding:20px;
+}
+
+.profile img{
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.menu{
+    color: rgb(255, 174, 0);
+}
+
+
+.register p{
+    padding: 0px 400px;
+    line-height: 1.5;
+}
+
+.register{
+    font-weight: 100;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 30px;
+    color: white;
+}
+.button{
+    text-align: center;
+}
+
+.button .reg{
+    background-color: rgb(207, 139, 4);
+}
+
+.button .signin{
+    background-color: black;
+    border: 1px solid white;
+    
+}
+
+.main{
+    background-color: rgb(225, 246, 240);
+    width: 100%;
+    height: 300px;
+}
+
+.step1,.step2,.step3{
+    width: 280px;
+    height:250px;
+    background-color: white;
+    margin-top: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+
+}
+.main h1{
+    text-align: center;
+}
+.step{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ri-search-line{
+    fill: grey;
+    position: relative;
+    left:400px;
+    top: 20px;
+}
+.ri-notification-2-line{
+    fill: grey;
+    position: relative;
+    left:350px;
+    top: 20px; 
+}
+
+.ri-user-line,.ri-restaurant-fill,.ri-brush-4-fill{
+    color:orange;
+    text-align: center;
+    font-size: 5rem;
+    position: relative;
+    bottom:60px;
+}
+h2,.p{
+position: relative;
+bottom:40px;
+}
+@media(max-width: 600px){
+    .container{
+        width:100%;
+        font-size: medium !important;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(min-width: 600px) and (max-width: 1200px){
+    .leftCreate{
+        margin: 2.5% 0 0 3%;
+        width: 38%;
+    }
+    .rightOutline{
+        margin: 4.5% 2% 0 0;
+        width: 54%;        
+    }
+}
